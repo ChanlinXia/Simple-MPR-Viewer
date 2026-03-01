@@ -1,0 +1,56 @@
+/* styles.qss */
+QMainWindow {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+QPushButton {
+    background-color: #4b4b4b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+QScrollArea{
+    background-color: #2b2b2b;
+}
+
+QScrollArea > QWidget > QWidget{
+    background-color: #2b2b2b;
+}
+
+QGroupBox{
+    border: none;
+}
+
+QSlider::groove:horizontal {
+        border: none;
+        height: 4px;
+        background: #3a3a3a;
+        border-radius: 2px;
+    }
+
+QSlider::sub-page:horizontal {
+    background: #00bcd4;
+    border-radius: 2px;
+}
+
+QSlider::add-page:horizontal {
+    background: #3a3a3a;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: #00bcd4;
+    width: 18px;
+    height: 18px;
+    margin: -7px 0;
+    border-radius: 9px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: #4dd0e1;
+}
+
